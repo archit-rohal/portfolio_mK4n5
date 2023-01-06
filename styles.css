@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 :root {
-    --primary-color: #2dd4bf;
-    --green: #166534; 
+    --primary-color: #fde047; 
+    --blue: #1d4ed8; 
     --off-white: #d4d4d8; 
 }
 body {
@@ -18,15 +18,19 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    color: var(--blue); 
+    font-size: 1.2rem;
 }
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: white; 
     border-radius: 10% / 50%; 
-    color: white;
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 .link-secondary {
     color: var(--primary-color);
@@ -39,10 +43,10 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+    font-size:1.1rem;
 }
 .navigation {
     background-color: var(--primary-color);
-    color:white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -51,10 +55,11 @@ hr {
 }
 .navigation .nav-brand {
     font-weight: bold;
+    color: #1d4ed8;
     font-size: 1.2rem;
 }
 .navigation .link {
-    color: white;
+    color: #1d4ed8;
 }
 .navigation .link-active {
     font-weight: bold;
@@ -70,29 +75,30 @@ hr {
 .hero .hero-heading {
     padding-top: 1rem;
     text-align: center;
-    color: var(--green);
+    color: var(--blue);
 }
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: #4b5563; 
 }
 .section {
     padding: 2rem;
+    background-color: var(--primary-color);
 }
 .section h1 {
     text-align: center;
 }
 .ow {
-    background-color: var(--off-white);
+    background-color: var(--primary-color);
 }
 .footer {
-    background-color: var(--primary-color);
+    background-color: white; 
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color: var(--blue); 
     border-top-right-radius: 1rem;
 }
 .footer .link {
-    color: white;
+    color: var(--blue);
 }
 .footer ul {
     padding-inline-start: 0px;
