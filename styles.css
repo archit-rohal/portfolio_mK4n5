@@ -19,7 +19,7 @@ hr {
     max-width: 600px;
     margin: auto;
     color: var(--blue); 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .link {
     text-decoration: none;
@@ -30,7 +30,7 @@ hr {
     border-radius: 10% / 50%; 
     color: var(--blue);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .link-secondary {
     color: var(--blue);
@@ -40,6 +40,7 @@ hr {
 }
 .list-non-bullet {
     list-style: none;
+    margin-left: 0px; 
 }
 .list-item-inline {
     display: inline;
@@ -103,4 +104,32 @@ hr {
 }
 .footer ul {
     padding-inline-start: 0px;
+}
+.case-center {
+    text-align: center;
+    background-color: #fde047;
+    padding: 1.4rem 0rem;
+}
+.case-center .link-primary {
+    margin-right: 0.5rem;
+}
+.case-center .link-secondary {
+    margin-left: 0.5rem;
+}
+.bowl {
+    padding: 0rem 1rem;
+    background-color: #fde047;
+}
+.bowl-center {
+    max-width: 600px;
+    margin: auto; 
+    color: var(--blue);
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+.read {
+    text-decoration: none;
+}
+.list-non-bullet .case {
+    color: #1d4ed8;
 }
