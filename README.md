@@ -6,6 +6,6 @@ I've used web technologies like HTML5, CSS3, Javascript and React in the making 
 
 This portfolio-website is also part of the markFour and markFive assignments of neogcamp.
 
-Preview - 
+Home page preview - 
 
 ![Alt text](./screenshot.png)
