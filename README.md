@@ -8,4 +8,4 @@ This portfolio-website is also part of the markFour and markFive assignments of 
 
 Home page preview - 
 
-![Alt text](./screenshot.png)
+![Alt text](./images/screenshot.png)
