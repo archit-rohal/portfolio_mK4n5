@@ -41,6 +41,7 @@ hr {
 .list-non-bullet {
     list-style: none;
     margin-left: 0px; 
+    padding: 0px 0px;
 }
 .list-item-inline {
     display: inline;
